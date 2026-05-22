@@ -1,0 +1,70 @@
+.post-list
+  padding: 0
+
+  .post-item
+    margin-bottom: 1rem
+    margin-left: 0
+    list-style-type: none
+
+    .meta
+      display: block
+      margin-right: 16px
+      min-width: 100px
+      color: $color-meta
+      font-size: 14px
+
+@media (min-width: 480px)
+  .post-list
+    .post-item
+      display: flex
+      margin-bottom: 5px
+
+      .meta
+        text-align: left
+
+.project-list
+  padding: 0
+  list-style: none
+
+  .project-item
+    margin-bottom: 5px
+    p
+      display: inline
+
+.home-card
+  margin: 2rem 0
+  padding: 1.25rem
+  border: 1px solid $color-border
+  border-radius: 8px
+  background: rgba(255, 255, 255, 0.02)
+
+  .home-description p
+    margin-top: .75rem
+
+  .access-grid
+    display: grid
+    gap: 1rem
+    margin-top: 1rem
+
+  .access-block
+    padding: .9rem
+    border: 1px solid $color-border
+    border-radius: 6px
+
+  .credentials
+    font-size: 1.05rem
+
+  .torrent-category
+    margin-top: .8rem
+
+  .torrent-category-title
+    margin-bottom: .4rem
+
+  .torrent-links
+    margin: 0
+    padding-left: 1.1rem
+
+@media (min-width: 700px)
+  .home-card
+    .access-grid
+      grid-template-columns: 1fr 1fr
